@@ -1,0 +1,22 @@
+{
+  "name": "ryunix-temp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "./",
+  "scripts": {
+    "dev": "ryunix dev",
+    "start": "ryunix start",
+    "build": "ryunix build",
+    "lint": "ryunix lint",
+    "lint:fix": "ryunix lint --fix"
+  },
+  "engines": {
+    "node": "^20 || ^22"
+  },
+  "dependencies": {
+    "@unsetsoft/ryunixjs": "^1.2.4-canary.5"
+  },
+  "devDependencies": {
+    "@unsetsoft/ryunix-presets": "^1.0.26-canary.12"
+  }
+}
