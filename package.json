@@ -11,12 +11,12 @@
     "lint:fix": "ryunix lint --fix"
   },
   "engines": {
-    "node": "^20 || ^22"
+    "node": "^20 || ^22 || ^24"
   },
   "dependencies": {
-    "@unsetsoft/ryunixjs": "^1.2.4-canary.5"
+    "@unsetsoft/ryunixjs": "^1.2.4-canary.6"
   },
   "devDependencies": {
-    "@unsetsoft/ryunix-presets": "^1.0.26-canary.12"
+    "@unsetsoft/ryunix-presets": "^1.0.26-canary.14"
   }
 }

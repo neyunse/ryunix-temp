@@ -2,11 +2,15 @@
 
 const RyunixSettings = {
   // used in dev and build mode
+  experimental: {
+    mdx: true,
+    ssr: true,
+  },
   static: {
     favicon: true, // if is false the favicon is not mandatory
   },
   webpack: {
-    production: false, // use 'true' for production
+    production: true, // use 'true' for production
   },
 }
 
